@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>JCB</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <svg style="display: none;">
+        <symbol id="heart-24" viewBox="0 0 24 24">
+            <path d="M21.179 12.794L21.192 12.808L12 22L2.808 12.808L2.821 12.794C0.606897 10.2127 0.756767 6.36107 3.16476 3.95964C5.57275 1.55821 9.42477 1.41884 12 3.63998C14.5752 1.41884 18.4273 1.55821 20.8353 3.95964C23.2432 6.36107 23.3931 10.2127 21.179 12.794Z"/>
+        </symbol>
+    </svg>
+</head>
+
+<body>
+    <header class="header">
+        <div class="center">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a class="header__logo--link logo">
+                        <img class="header__logo__img logo__img" src="CSS/bg/rent.png" alt="">
+                    </a>
+                </div>
+                <div class="header__text--left header__text">
+                    услуги строительной<br> техники
+                </div>
+
+                <div class="header__text--right header__text">
+                    г. Екатеринбург, ул.Маяковского, 25
+                    <a href="tel:  +7 (343) 222-20-17" class="header__phone header__text"> +7 (343) 222-20-17</a>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <div class="nav">
+        <div class="center">
+            <div class="nav__wrapper">
+                <div class="nav__logo">
+                    <img src="css/bg/logo.png" alt="nav__logo">
+                </div>
+                <nav class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__list-item"><a href="#" class="nav__list-link nav__list--link--on">каталог
+                                техники</a></li>
+                        <li class="nav__list-item"><a href="#" class="nav__list-link">услуги</a></li>
+                        <li class="nav__list-item"><a href="#" class="nav__list-link">выполненные работы</a></li>
+                        <li class="nav__list-item"><a href="#" class="nav__list-link">о компании</a></li>
+                        <li class="nav__list-item"><a href="#" class="nav__list-link">контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <div class="slider">
+            <div class="slider__wrapper swiper-container">
+                <div class="slider__main swiper-wrapper">
+                    <a href="#" class="slider__slides swiper-slide">
+                        <img src="css/bg/slider__img.png" alt="slider__img" class="slider__link-img">
+                    </a>
+                    <a href="#" class="slider__slides swiper-slide">
+                        <img src="css/bg/slider__img.png" alt="slider__img" class="slider__link-img">
+                    </a>
+                </div>
+                <div class="center slider__center">
+                    <div class="slider__btn-pagination swiper-pagination">
+                        <div class="slider__btn-pagination-item slider__btn-pagination-item--on"></div>
+                        <div class="slider__btn-pagination-item"></div>
+                        <div class="slider__btn-pagination-item"></div>
+                    </div>
+                    <div class="slider__buttons">
+                        <button class="slider__button slider__button--left swiper-button-prev"></button>
+                        <button class="slider__button slider__button--right swiper-button-next"></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="breadcrumbs">
+            <div class="center">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__list-item">
+                        <a href="#" class="breadcrumbs__list-link">Главная /</a>
+                    </li>
+                    <li class="breadcrumbs__list-item">
+                        <a href="#" class="breadcrumbs__list-link">Каталог /</a>
+                    </li>
+                    <li class="breadcrumbs__list-item">
+                        Название товара
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="center">
+                <div class="filters__wrapper">
+                    <div class="filters__left">
+                        <img src="css/interface/filters_img.png" alt="" class="filters__img">
+                    </div>
+                    <div class="filters__right">
+                        <h2 class="h2">JCB 4CX Super</h2>
+                        <div class="accordion">
+                            <div class="accordion__head accordion__head--on">
+                                Характеристики
+                                <div class="accordion__head-icone" id="accordion_icone1"></div>
+                            </div>
+                            <div class="accordion__body">
+                                <div class="accordion__body-item accordion__body-item--checkbox">
+                                    <label class="checkbox">
+                                        <input class="checkbox__hidden" hidden type="checkbox">
+                                        <span class="checkbox__point"></span>
+                                        <span class="checkbox__label">Характеристика 1</span>
+                                    </label>
+                                </div>
+
+                                <div class="accordion__body-item accordion__body-item--checkbox">
+                                    <label class="checkbox">
+                                        <input class="checkbox__hidden" hidden type="checkbox">
+                                        <span class="checkbox__point"></span>
+                                        <span class="checkbox__label">Характеристика 2</span>
+                                    </label>
+                                </div>
+                                <div class="accordion__body-item accordion__body-item--checkbox">
+                                    <label class="checkbox">
+                                        <input class="checkbox__hidden" hidden type="checkbox">
+                                        <span class="checkbox__point"></span>
+                                        <span class="checkbox__label">Характеристика 3</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="accordion">
+                            <div class="accordion__head accordion__head--on">
+                                Характеристики доп
+                                <div class="accordion__head-icone" ></div>
+                            </div>
+                            <div class="accordion__body">
+                                <div class="accordion__body-item accordion__body-item--checkbox">
+                                    <label class="checkbox">
+                                        <input class="checkbox__hidden" hidden type="checkbox">
+                                        <span class="checkbox__point"></span>
+                                        <span class="checkbox__label">Характеристика 1</span>
+                                    </label>
+                                </div>
+
+                                <div class="accordion__body-item accordion__body-item--checkbox">
+                                    <label class="checkbox">
+                                        <input class="checkbox__hidden" hidden type="checkbox">
+                                        <span class="checkbox__point"></span>
+                                        <span class="checkbox__label">Характеристика 2</span>
+                                    </label>
+                                </div>
+                                <div class="accordion__body-item accordion__body-item--checkbox">
+                                    <label class="checkbox">
+                                        <input class="checkbox__hidden" hidden type="checkbox">
+                                        <span class="checkbox__point"></span>
+                                        <span class="checkbox__label">Характеристика 3</span>
+                                    </label>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="filter__order">
+
+                            <div class="order__wrap">
+                                <div class="filter__price">125.000 Р.</div>
+                                <div class="btn">
+                                    <div class="btn--brand">
+                                        заказать
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filter__line"></div>
+            </div>
+
+
+        </div>
+        </div>
+
+
+        <div class="services">
+            <h3 class="services__title">
+                услуги
+            </h3>
+            <div class="services__wrapper">
+
+                <div class="center">
+
+                    <div class="services__description">
+                        <div class="services__description-item">
+                            <img src="css/bg/services.png" alt="" class="services__img">
+                            <div class="services__deskription-text">
+                                <div class="services__name">засыпка траншей</div>
+                                <div class="services__name-about">Нашей компанией осуществляется засыпка траншей в
+                                    Екатеринбурге, востребованная предприятиями и частными лицами.</div>
+                            </div>
+                        </div>
+
+                        <div class="services__description-item">
+                            <img src="css/bg/services.png" alt="" class="services__img">
+                            <div class="servicec__description-text">
+                                <div class="services__name">вывоз мусора</div>
+                                <div class="services__name-about">Вывоз мусора — составляющая деятельности производств и
+                                    бытовых предприятий</div>
+                            </div>
+                        </div>
+                        <div class="services__description-item">
+                            <img src="css/bg/services.png" alt="" class="services__img">
+                            <div class="servicec__deccription-text">
+                                <div class="services__name">доставка</div>
+                                <div class="services__name-about">Отсев образуется после разработки твердых горных пород
+                                    и
+                                    востребованным материалом в строительстве.</div>
+                            </div>
+                        </div>
+
+                        <div class="services__description-item">
+                            <img src="css/bg/services.png" alt="" class="services__img">
+                            <div class="servicec__description-text">
+                                <div class="services__name">подъем грузов</div>
+                                <div class="services__name-about">Выполнение широкого спектра высотных операций сложно
+                                    представить без специализированной техники.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tasks">
+            <div class="center">
+                <div class="tasks__wrapper">
+                    <h2 class="tasks__title">заголовок</h2>
+                    <div class="tasks__item">
+                        <h3 class="tasks__name">1.Задача 1</h3>
+                        <img src="css/interface/pen-solid.svg" class="tasks__img" alt="">
+                        <img src="css/interface/times-solid.svg" class="tasks__img" alt="">
+                    </div>
+                    <div class="tasks__item">
+                        <h3 class="tasks__name">1.Задача 2</h3>
+                        <img src="css/interface/pen-solid.svg" class="tasks__img" alt="">
+                        <img src="css/interface/times-solid.svg" class="tasks__img" alt="">
+                    </div>
+                    <div class="tasks__sertch">
+                        <input type="text" class="tasks__input">
+                        <img src="css/interface/check-solid.svg" class="tasks__img-sertch" alt="">
+                        <img src="css/interface/times-solid.svg" class="tasks__img-sertch" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <div class="map__wrapper">
+                <img src="css/bg/map.png" alt="" class="map__img">
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="center">
+                <div class="footer__wrapper">
+                    <div class="footer__logo">
+                        <img src="css/interface/footer__logo.png" alt="foter__logo-img">
+                    </div>
+                    <div class="footer__menu">
+                        <ul class="footer__lists">
+                            <li class="footer__list"><a href="#"
+                                    class="footer__list-link footer__list-link--on">Главная</a></li>
+                            <li class="footer__list"><a href="#" class="footer__list-link">Каталог техники</a></li>
+                            <li class="footer__list"><a href="#" class="footer__list-link">Услуги</a></li>
+                            <li class="footer__list"><a href="#" class="footer__list-link">Выполненные работы</a></li>
+                            <li class="footer__list"><a href="#" class="footer__list-link">О компании</a></li>
+                            <li class="footer__list"><a href="#" class="footer__list-link">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__author">
+                        <p class="authors">© Aйтекс start 2016</p>
+                        <div class="footer__author-bottom">
+                            <img src="css/interface/footer__logo__author.png" alt="" class="author__img">
+                            <a href="#" class="author__link">itexstart.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <script src="js/slider.js"></script>
+    <script src="js/accordeon.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                bulletClass: 'slider__btn-pagination-item',
+                bulletActiveClass: 'slider__btn-pagination-item--on',
+                bulletElement: 'div',
+                clickable: true
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        })
+    </script>
+</body>
+
+</html>
